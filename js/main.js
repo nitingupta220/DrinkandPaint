@@ -153,3 +153,7 @@ $('.navbar-toggle').click(function() {
     $('.navbar-nav').show(1000);
 
 });
+
+$('.fa-chevron-down').click(function () {
+    $('.hide-photos').toggle(1500);
+})

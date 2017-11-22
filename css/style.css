@@ -761,3 +761,10 @@ textarea#message {
 #footer ul {
     margin-top: 20px;
 }
+.fa-chevron-down {
+    color: #bb1f34;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: normal;
+}
