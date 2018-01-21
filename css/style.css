@@ -757,9 +757,7 @@ textarea#message {
     height: 70px;
     width: 70px;
 }
-#footer img:hover {
-    filter: brightness(400%);
-}
+
 #footer ul {
     margin-top: 20px;
 }
@@ -769,4 +767,13 @@ textarea#message {
     cursor: pointer;
     font-size: 25px;
     font-weight: normal;
+}
+
+@media (max-width: 567px) {
+    .mobile1 {
+        width: 100px;
+        height: 50px;
+        margin-right: 50px;
+        margin-left: 15px;
+    }
 }
